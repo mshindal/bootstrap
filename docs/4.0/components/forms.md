@@ -770,7 +770,7 @@ When attempting to submit, you'll see the `:invalid` and `:valid` styles applied
     </div>
     <div class="col-md-3 mb-3">
       <label for="validationCustom05">Zip</label>
-      <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
+      <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" pattern="\d{5}(?:[-\s]\d{4})?" required>
       <div class="invalid-feedback">
         Please provide a valid zip.
       </div>
